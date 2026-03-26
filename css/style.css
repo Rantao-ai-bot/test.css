@@ -1,0 +1,22 @@
+/* Вага селектора тега
+h1 {
+    color: red;
+}
+h1{
+    color: blue;
+}
+Вага селектора класу
+.title{
+    color: aquamarine;
+}
+Вага селектора айді
+#qwe{
+    color: blanchedalmond;
+} */
+section h2{
+    color: red;
+}
+section > h2 + section > h2{
+    color: blue;
+
+}
