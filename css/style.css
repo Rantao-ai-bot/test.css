@@ -1,3 +1,7 @@
-.class{
-    color :rgb(3, 56, 0) ;
+a[href^="https"] {
+    color: red;
+}
+
+ul + p {
+font-size: 24;
 }
