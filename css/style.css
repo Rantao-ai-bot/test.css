@@ -1,7 +1,24 @@
-a[href^="https"] {
-    color: rgb(255, 0, 0);
+.box{
+    width: 500px;
+    outline: 5px solid red;
+    margin: 0 auto;
 }
 
-ul + p {
-font-size: 24;
+.text{
+    font-size: 24px;
+    text-transform: capitalize;
+    /* white-space: pre-wrap; */
+    /* text-transform: uppercase; */
+word-break: break-all;
+letter-spacing: 5px;
+word-spacing: 10px;
 }
+
+.desk{
+text-transform: uppercase;
+}
+
+.abubo{
+    text-decoration: none;
+}
+
